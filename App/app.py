@@ -14,19 +14,19 @@ def home():
 
 @app.route('/api',methods=['POST'])
 def get_delay():
-
     result=request.form
-    query_title = result['title']
-    query_author = result['author']
-    query_text = result['maintext']
-    print(query_text)
-    query = get_all_query(query_title, query_author, query_text)
+    title = result['title']
+    author = result['author']
+    text = result['maintext']
+    query = get_all_query(title, author,text)
     user_input = {'query':query}
     pred = pipeline.predict(query)
     print(pred)
-    dic = {1:'The News article is Real',0:'The News article is Fake'}
-    return f'<html><body><h1>{dic[pred[0]]}</h1> <form action="/"> <button type="submit"> Back </button> </form></body></html>'
-
+    output="The news article is REAL!"
+    if pred==0: 
+        output:"The news article is FAKE!"
+    return render_template('index1.html',output=output)
 
 if __name__ == '__main__':
-    app.run(port=8080, debug=True)
+    #app.run(port=8080, debug=True)
+    app.run(host='0.0.0.0')
