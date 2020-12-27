@@ -23,6 +23,7 @@ The test.csv files contains the data upon which we test our model. It contains 5
 4. Train and test the model.
 5. Create a pipeline.
 6. Create a flask that uses this pipeline and makes predictions 
+7. Deploy the app to Heroku 
 
 ## How to set up the project
 1. Install Python: 
@@ -59,6 +60,7 @@ This will give you the link to the local server : http://127.0.0.1:5000/
 ![alt text](https://github.com/arishta/FakeNewsDetectionSystem/blob/main/screeenshots/output.PNG)
 
 
-
+## Heroku app link
+[HerokuAppLink](https://fake-news-detector101.herokuapp.com/)
 
 
