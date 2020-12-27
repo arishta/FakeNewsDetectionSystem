@@ -1,7 +1,7 @@
 # FakeNewsDetectionSystem
 
 ## Objective 
-It is a web application that predicts whether a particular news item is real or fake.
+It is a web application deployed on Heroku that predicts whether a particular news item is real or fake.
 
 ## Technologies used
 1. Python==3.9.1
@@ -61,6 +61,6 @@ This will give you the link to the local server : http://127.0.0.1:5000/
 
 
 ## Heroku app link
-[HerokuAppLink](https://fake-news-detector101.herokuapp.com/)
+[FakeNewsDetectionSystem](https://fake-news-detector101.herokuapp.com/)
 
 
