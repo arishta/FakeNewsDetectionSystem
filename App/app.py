@@ -21,12 +21,11 @@ def get_delay():
     query = get_all_query(title, author,text)
     user_input = {'query':query}
     pred = pipeline.predict(query)
-    print(pred)
+    print("ans:",pred)
     output="The news article is REAL!"
     if pred==0: 
-        output:"The news article is FAKE!"
+        output="The news article is FAKE!"
     return render_template('index1.html',output=output)
-
+    
 if __name__ == '__main__':
-    #app.run(port=8080, debug=True)
-    app.run(host='0.0.0.0')
+    app.run(port=8080, debug=True)
