@@ -94,17 +94,19 @@
     <div class="header">
         <h2>Fake News Detector</h2>
         <br> <br> <br> <br> <br> <br>
-        <form class="main">
+        <form class="main" action="/">
             <label for='name' class="text-label">Title</label>
-            <input class="user-field" type="text" name="title">
+            <input class="user-field" name="title" readonly>
             <br><br>
             <label for='name' class="text-label">Author</label>
-            <input class="user-field" type="text" name="author">
+            <input class="user-field" name="author" readonly>
             <br><br>
             <label for='name' class="text-label">Text</label>
-            <input class="user-field" type="text" name="maintext">
+            <input class="user-field" name="maintext" readonly>
             <br><br><br><br>
             <h2>{{output}}</h2>
+            <br><br><br><br>
+            <button type="submit" class="button">Go back</button>
         </form>
     </div>
 
