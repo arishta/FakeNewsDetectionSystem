@@ -61,6 +61,6 @@ This will give you the link to the local server : http://127.0.0.1:5000/
 
 
 ## Heroku app link
-[FakeNewsDetectionSystem](https://fake-news-detector101.herokuapp.com/)
+[FakeNewsDetectionSystem](https://fakenewsdetector001.herokuapp.com/)
 
 
