@@ -15,10 +15,8 @@ decorator==4.4.2
 defusedxml==0.6.0
 entrypoints==0.3
 Flask==1.1.2
-gunicorn==20.0.4
 idna==2.10
 ipykernel==5.4.2
-ipython==7.19.0
 ipython-genutils==0.2.0
 itsdangerous==1.1.0
 jedi==0.18.0
@@ -43,9 +41,8 @@ nbformat==5.0.8
 nest-asyncio==1.4.3
 nltk==3.5
 notebook==6.1.6
-numpy==1.19.4
+numpy==1.19.3
 packaging==20.8
-pandas==1.2.0
 pandocfilters==1.4.3
 parso==0.8.1
 pickleshare==0.7.5
@@ -58,7 +55,6 @@ pyparsing==2.4.7
 pyrsistent==0.17.3
 python-dateutil==2.8.1
 pytz==2020.5
-pywin32==300
 pywinpty==0.5.7
 pyzmq==20.0.0
 regex==2020.11.13
@@ -75,9 +71,9 @@ testpath==0.4.4
 threadpoolctl==2.1.0
 tornado==6.1
 tqdm==4.55.0
-traitlets==5.0.5
 urllib3==1.26.2
 wcwidth==0.2.5
 webencodings==0.5.1
 Werkzeug==1.0.1
 wordcloud==1.8.1
+gunicorn==20.0.4
