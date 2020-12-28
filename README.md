@@ -58,6 +58,8 @@ This will give you the link to the local server : http://127.0.0.1:5000/
 
 ![alt text](https://github.com/arishta/FakeNewsDetectionSystem/blob/main/screeenshots/user_search.PNG)
 ![alt text](https://github.com/arishta/FakeNewsDetectionSystem/blob/main/screeenshots/output.PNG)
+![alt text](https://github.com/arishta/FakeNewsDetectionSystem/blob/main/screeenshots/fake_news.jpeg)
+
 
 
 ## Heroku app link
